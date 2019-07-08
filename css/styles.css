@@ -7,7 +7,6 @@ body {
 
 div {
   background-color: white;
-  margin-top: 90px;
 }
 
 hr {
@@ -15,6 +14,7 @@ hr {
   border-color: #c8dad3;
   border-bottom-width: 6px;
   width: 30%
+  margin: 90px auto;
 }
 
 /*--------------------------------------------- Textos ------------------------------------------------*/
