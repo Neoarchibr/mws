@@ -1,82 +1,59 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
-<div id="wrapper">
 <head>
-	<meta charset="utf-8">
-	<title> Memorabília </title>
-	<meta name="author" content="Claudia">
-	<meta name="description" content="Projeto Memória html">
-	<meta name="keywords" content="design, html, css, projeto, memorias">
-	<meta name="robots" content="index, follow">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="icon" href="favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Lexend+Deca&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Cláudia Santos</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Actor|Lobster|Sniglet&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Cláudia</h1>
+    <p><h2 class="subtitle">A designer <span class="and">and</span> web developer</h2></p>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="montain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/clasy.jpg" alt="Profile-picture">
+      <h2>Hello</h2>
+      <p class="profile-text">I'm a Design student at Senac. Recently I discovered that besides drawing, I really love programming.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="skill-tablet" src="images/graphic-tablet.png" alt="graphic-tablet-icon">
+        <h3>Illustration</h3>
+        <p class="skill-text-1">I've been drawing since I was a kid, it's an old passion of mine. I make digital illustrations and post them online whenever I can.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-web" src="images/web-programming.png" alt="web-programming-icon">
+        <h3>Design & Development</h3>
+        <p class="skill-text">I'm studying to be a designer and in my free time I'm learning programming, starting with a Web Development online cource.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2 class="contact-title">Get In Touch</h2>
+      <h3>Want a personal website or illustration?</h3>
+      <p class="contact-text">Do you want your own website or illustration? Great! Lets talk about it!</p>
+      <a class="button" href="mailto:name@email.com">Contact Me</a>
+    </div>
+  </div>
 
-	<div class="top-container">
-		<h1 class="title"> Memorabília </h1>
-		<h3> Uma estante cheia de objetos e lembranças </h2>
-	</div>
 
-	<nav>
-		<ul class="nav justify-content-center">
-			<li class="nav-item">
-				<a class="nav-link" href="nav_links/sobre.html">Sobre</a> 
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="nav_links/faq.html">FAQ</a> 
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="nav_links/testes.html">Testes</a> 
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="nav_links/maistestes.html">Mais Testes</a> 
-			</li>
-		</ul>
-	</nav>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="name-date">© 2018 Cláudia Santos.</p>
+  </div>
 
-	<section class="pictures"> <!-- tacar um monte de fotos do instagram (JÁ CORTADAS) -->
-		<div class="container1">
-			<div class="grid-item"> <img src="images/pic1.jpg" alt="title1"> </div> <!-- p/ img virar um link é só colocar dentro de uma anchor -->
-			<div class="grid-item"> <img src="images/pic2.jpg" alt="title2"> </div>
-			<div class="grid-item"> <img src="images/pic3.jpg" alt="title3"></div>
-			<div class="grid-item"> <a href="memos/memo_1.html"><img src="images/pic4.jpg" alt="pic1"></a> </div>
-			<div class="grid-item"> <a href="memos/memo_2.html"><img src="images/pic5.jpg" alt="pic2"></a> </div>
-			<div class="grid-item"> <a href="memos/memo_3.html"><img src="images/pic6.jpg" alt="pic3"></a> </div>
-			<div class="grid-item"> <a href="memos/memo_4.html"><img src="images/pic7.jpg" alt="pic4"></a> </div>
-			<div class="grid-item"> <a href="memos/memo_5.html"><img src="images/pic8.jpg" alt="pic5"></a> </div>
-			<div class="grid-item"> <a href="memos/memo_6.html"><img src="images/pic9.jpg" alt="pic6"></a> </div>
-			<div class="grid-item"> <img src="images/pic10.jpg" alt="pic6"> </div>
-			<div class="grid-item"> <img src="images/pic11.jpg" alt="pic7"> </div>
-			<div class="grid-item"> <img src="images/pic12.jpg" alt="pic8"> </div>
-			<div class="grid-item"> <img src="images/pic13.jpg" alt="pic9"> </div>
-			<div class="grid-item"> <img src="images/pic14.jpg" alt="pic10"> </div>
-			<div class="grid-item"> <img src="images/pic15.jpg" alt="pic11"> </div>
-			<div class="grid-item"> <img src="images/pic16.jpg" alt="pic12"> </div>
-			<div class="grid-item"> <img src="images/pic17.jpg" alt="pic13"> </div>
-			<div class="grid-item"> <img src="images/pic18.jpg" alt="pic14"> </div>
-			<div class="grid-item"> <img src="images/pic19.jpg" alt="pic15"> </div>
-			<div class="grid-item"> <img src="images/pic20.jpg" alt="pic16"> </div>
-			<div class="grid-item"> <img src="images/pic21.jpg" alt="pic17"> </div>
-			<div class="grid-item"> <img src="images/pic22.jpg" alt="pic18"> </div>
-			<div class="grid-item"> <img src="images/pic23.jpg" alt="pic19"> </div>
-			<div class="grid-item"> <img src="images/pic24.jpg" alt="pic20"> </div>
-		</div>
-	</section>
-
-	<footer>
-		<div class="container">
-			<p>
-				Website feito por: Cláudia A. Santos
-			</p>
-		</div>
-	</footer>
 </body>
-</div>
 
 </html>
